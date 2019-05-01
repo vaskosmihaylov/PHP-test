@@ -17,4 +17,6 @@ if ($error_no == 0) {
 	    $error = 'File upload error.';
 }
 
+<?php add_filter( 'fl_enable_fa5_pro', '__return_true' ); ?>
+
 ?>
